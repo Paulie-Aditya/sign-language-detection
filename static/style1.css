@@ -1,0 +1,10 @@
+.drag-area.active{
+    border: 2px solid #0ef;
+}
+
+.drag-area img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* border: 5px; */
+}

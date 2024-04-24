@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignSense</title><link rel="icon" href="/static/logo/logo2.jpg" type="title_logo">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="main1" class="container min-h-screen bg-black px-[40px] py-4">
+        <nav id="nav" class="flex items-center justify-between p-2 mt-3 w-[100%] ">
+            <a href="/"><img src="/static/logo/logo.jpg" alt="logo" class="w-[200px] h-[55px] mt-2 p-2 cursor-pointer"></a>
+            <ul class="flex-1 text-center">
+                
+                <li class="list-none inline-block px-5 space-x-1"><a href="/"  class="no-underline text-white text-[18px] font-semibold px-2 hover:text-[#0ef]">Home</a></li>
+                <li class="list-none inline-block px-5 space-x-1"><a href="#get-started"  class="no-underline  text-white text-[18px] font-semibold px-2 hover:text-[#0ef]">Get  Started</a></li>
+                <li class="list-none inline-block px-5 space-x-1"><a href="#features"  class="no-underline  text-white text-[18px] font-semibold px-2 hover:text-[#0ef]">Features</a></li>
+                <li class="list-none inline-block px-5 space-x-1"><a href="/route3"  class="no-underline  text-white text-[18px] font-semibold px-2 hover:text-[#0ef]">Learn More</a></li>
+               <button class="text-white text-center float-right font-semibold mx-3 rounded-md border-[1px] w-[100px] h-[35px] mb-2 hover:bg-transparent hover:border-[#0ef] hover:text-[#0ef] hover:border">Login</button>
+            </ul>
+        </nav>
+
+        <div id="main2" class="text-white font-bold text-[35px] mt-[100px] p-5">
+            <h1>Welcome to <span id="animate" class="text-[#0ef]">SignSense</span></h1>
+        </div>
+        <div id="main3" class="mt-[10px]">
+            <p class="text-white mt-[25px] p-4 text-lg ">Discover SignSense: Your Gateway to Effortless Communication in Sign Language. Empowering the Deaf and Dumb Community with Cutting-Edge AI Technology for Seamless Interaction and Inclusivity.</p>
+                
+        </div>
+        
+        <a href="#get-started"><button id="btn" class="mt-[35px] text-white p-4 mx-2 text-[14x] rounded-md border-2 hover:bg-transparent hover:border-[#0ef] hover:text-[#0ef] duration-300 hover:border">Get Started<i class="fa-solid fa-arrow-up-right-from-square mx-2"></i></button></a>
+        
+    </div>
+    
+    <br>
+
+    <div id="get-started" class="container min-h-screen bg-black px-28 py-4 flex items-center justify-center space-x-48 ">
+        <!-- <h1 class="text-white font-semibold text-[25px] flex-1 text-center"></h1> -->
+
+        <a href="/route1"> <div id="images" class="w-[350px] h-[350px] border-4 mt-[70px] mb-[10px] flex items-center justify-center hover:bg-transparent hover:border-[#0ef] hover:text-[#0ef] duration-300 hover:border cursor-pointer">
+            <h1 class="text-white flex text-[23px]">Upload Images<i class="fa-solid fa-upload flex items-center justify-center mx-3 my-1"> </i></h1>
+            
+        </div>
+        </a>
+
+        <a href="/route2"><div id="images" class="w-[350px] h-[350px]  border-4 mt-[70px] mb-[10px] flex items-center justify-center hover:bg-transparent hover:border-[#0ef] hover:text-[#0ef] duration-300 hover:border cursor-pointer">
+            <h1 class="text-white flex text-[23px]">Live Sign Detection <i class="fa-solid fa-video w-[10px] h-[10px] mx-3 my-1.5"></i></h1>
+        </div>
+        </a>
+    </div>
+    
+    <br>
+
+    <!--Accordion-->
+    <div id="features" class="faq container min-h-screen bg-black px-[40px] py-[10px] text-center text-[30px]">
+        <h2 class="text-[#0ef] font-semibold mt-[20px]">Our Salient Features</h2>
+        <ul class="accordion">
+             <li>
+                <input type="radio" name="accordion" id="first">
+                <label for="first" class="text-white text-lg">What is SignSense</label>
+                <div class="content">
+                    <p class="text-white text-lg"> 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, quia delectus. Reprehenderit cumque nam iste unde at mollitia doloremque? Rem quia omnis iure iste temporibus atque quo asperiores maxime numquam!</p>
+                    </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="second">
+                <label for="second" class="text-white text-lg">How will it help the disabled?</label>
+                <div class="content">
+                    <p class="text-white text-lg"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus illo nemo optio accusantium aliquid nesciunt ea sit eveniet quo quisquam, tempore maiores sapiente? Magni quo id ad ea reiciendis exercitationem?</p></div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="third">
+                <label for="third" class="text-white text-lg">Does it support multiple sign languages?</label>
+                <div class="content">
+                    <p class="text-white text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta numquam reprehenderit amet consequatur enim molestiae cum earum cumque cupiditate necessitatibus ad sed distinctio laudantium nam, facilis temporibus ducimus est asperiores.</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="fourth">
+                <label for="fourth" class="text-white text-lg">How many options do you have?</label>
+                <div class="content">
+                    <p class="text-white text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium totam ex error ipsa, voluptate atque dolore earum nihil impedit eos, aut mollitia cum eius repudiandae sapiente deserunt, autem reprehenderit consectetur?</p>
+                </div>
+            </li>
+        </ul>
+
+        </div>
+
+        <br>
+
+        <!--Footer-->
+        <div class="footer container bg-black width-[100%] h-[100px] flex items-center justify-center">
+            <p class="text-[#0ef] text-2xl">SignSense  © 2024</p>
+        </div>
+        
+    </div>
+
+
+        
+           
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="/static/script.js"></script>
+</body> 
+</html>
